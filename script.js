@@ -57,4 +57,5 @@ for (let i = 0; i < NUM_CHARACTERS; i++) {
   charIcon.setAttribute('title', `0x${formatHex(seed)}`);
   charContainer.appendChild(charIcon);
   seed = rngAdv(seed);
+  seed = rngAdv(seed);
 }
